@@ -18,12 +18,11 @@ if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }
 
-// If database is not exist create one
 if (mysqli_select_db($conn,$dbName )){
 
         echo "Connected to Database successfully \r\n";
     }else {
-        echo "Error creating database: " . $conn->error;
+        echo "Error Connecting to database: " . $conn->error;
     }
     $sql = "INSERT INTO ".$TableName." (Commands)
     VALUES ('$btnValue')";
