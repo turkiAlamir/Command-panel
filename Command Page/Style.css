@@ -1,0 +1,38 @@
+#Left-btn {
+    float: inline-end;
+}
+
+#Right-btn {
+    float: inline-end;
+    
+}
+textarea{
+    margin: 2px;
+border: 0.5px solid gainsboro;
+border-radius: 15px;
+background-color: rgb(220, 228, 234);
+
+}
+h1{
+    align-items: center;
+    color:rgb(1, 96, 109) ;
+}
+body{
+background-color: rgb(231, 239, 245);
+    height: 100%;
+    width: 100%;
+}
+.btn-group button {
+    background-color: rgb(1, 96, 109);
+    border: 0.5px solid ;
+    color: white;
+    padding: 16px 10px;
+    cursor: pointer;
+    width: 10%;
+    border-radius: 30px;
+    margin: 4px;
+}
+#Stop-btn {
+    
+    background-color: rgb(104, 2, 2);
+}
